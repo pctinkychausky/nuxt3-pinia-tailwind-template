@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "test": "vitest run --coverage",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -9,12 +10,16 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.3.0",
-    "nuxt": "^3.1.1"
+    "@types/uuid": "^9.0.0",
+    "@vitest/coverage-c8": "^0.28.3",
+    "nuxt": "^3.1.1",
+    "vitest": "^0.28.3"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6",
     "@types/node": "^18.11.18",
     "install": "^0.13.0",
-    "pinia": "^2.0.29"
+    "pinia": "^2.0.29",
+    "uuid": "^9.0.0"
   }
 }
